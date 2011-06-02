@@ -1,0 +1,17 @@
+* Joomla 1.5 Content Plugin
+
+This plugin will substitutes to [audio] tags a Flash audio player to reproduce the declared audiofile.
+Flash component is the opensource Audio Player 2.0 created by Martin Laine (http://www.1pixelout.net).
+
+The plugin will add into the page required JavaScript files to load and display audio player in place of the audio tag.
+
+Currently this pluginversion implements few of the player customizations doable by the tag itself:
+
+Standard syntax:
+	[audio <options>]<label>[/audio]
+
+Where <options> are a space separated list of options where:
+	src=audio_file_URL is mandatory and it identify the audio file to be player.
+	width=123 or width=123% is optional and identify the width of the component to be displayed with pixels or %.
+	
+<label> is a text string which will be written as a label for the audio within the component.

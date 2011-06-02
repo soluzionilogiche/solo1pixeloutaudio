@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - 1pixelout Audio Player (SWF)</name>
+	<author>SO.LO Soluzioni Logiche ICT</author>
+	<creationDate>Giugno 2011</creationDate>
+	<copyright>GPL</copyright>
+	<authorEmail>nicola.petracchi@soloict.it</authorEmail>
+	<authorUrl>www.soloict.it</authorUrl>
+	<version>0.1</version>
+	<description>Aggiunge il componente di riproduzione audio 1pixelout Audio Player per file MP3 etc.</description>
+	<files>
+		<filename plugin="solo1pixeloutaudio">solo1pixeloutaudio.php</filename>
+		<filename>solo1pixeloutaudio/audio-player.js</filename>
+		<filename>solo1pixeloutaudio/player.swf</filename>
+	</files>
+</install>
